@@ -6,6 +6,7 @@
 import { ShoppingBag, Menu, ArrowRight, Instagram, Facebook, User, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useEffect, useState, useRef } from 'react';
+import logoImg from './logo.png';
 
 // --- Mock Data ---
 
@@ -53,7 +54,7 @@ function Navbar({ onOpenLogin }: { onOpenLogin: () => void }) {
         {/* Logo Area */}
         <div className="absolute left-1/2 -translate-x-1/2 flex items-center justify-center">
           <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-transparent flex items-center justify-center overflow-hidden shadow-lg">
-             <img src="/logo.png" alt="Bursa Hira Tor Kumaş Logo" className="w-full h-full object-cover scale-[1.08] object-center" />
+             <img src={logoImg} alt="Bursa Hira Tor Kumaş Logo" className="w-full h-full object-cover scale-[1.08] object-center" referrerPolicy="no-referrer" />
           </div>
         </div>
 
