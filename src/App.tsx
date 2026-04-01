@@ -336,7 +336,7 @@ function Products() {
                   transition={{ duration: 0.8 }}
                   src={product.image} 
                   alt={product.name}
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover transition-all duration-500"
                   referrerPolicy="no-referrer"
                 />
                 
